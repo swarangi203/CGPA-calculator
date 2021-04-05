@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body{
+	background-image:url("baack.jpg"); 
+	background-size: 1400px 700px;
+
+}
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+.row {
+  display: flex;
+}
+
+
+
+h1{
+	color:white;
+	padding-left:15px;
+	padding-top:20px;
+	font-size:40px;
+	text-align: center;
+	
+}
+
+h2{
+	color:white;
+	padding: 15px 18px;
+
+}
+
+p{
+	color:white;
+	line-height:2em;
+	font-size:18px;	
+	margin-left: 90px;
+}
+nav{
+	margin: none;
+}
+ul li a{
+	color: white;
+}
+ol li a{
+	color: white;
+}
+ul {
+	background-color:rgba(0, 0, 0, 0.3);
+	
+	
+}
+
+ul li{
+	display: inline-block;
+	color: white;
+	padding: 26px;
+		
+}
+#wrap{
+background-color: rgba(0, 0, 0, 0.3);
+width:900px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+padding: 15px;
+color:white;
+}
+#grade{
+	line-height:2em;
+	background-color: rgba(0, 0, 0, 0.3);
+	width:900px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px;
+	color:white;
+}
+
+#info{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+    height:470px;
+    font-size:18pt;
+}
+
+
+
+button{
+	width:200px;
+	height: 60px;
+	background-color:rgba(255,165,0, 0.6);
+	color: white;
+	font-size: 20px;
+	box-shadow: none;
+	cursor: pointer;
+	
+}
+ul li a:hover
+{
+	color: rgba(255,165,0, 0.6);
+		
+}
+
+
+section{
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+input[type=submit]{
+  background-color: rgba(255,165,0, 0.5);
+  border: none;
+  color: white;
+  padding: 20px 36px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: rgba(255,165,0, 0.8);
+	
+}
